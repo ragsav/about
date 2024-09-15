@@ -3,6 +3,8 @@ const nextConfig = {
   images: {
     domains: ["firebasestorage.googleapis.com"],
   },
+  output: "export", // <=== enables static exports
+  reactStrictMode: true,
 };
 
 export default nextConfig;
